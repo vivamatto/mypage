@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!-- 웹페이지 보이지는 않지만, 필요한 설정을 해두는 곳이에요.
+             우리가 집을 위해 미리 생각 해놓은 것을 적어두는 곳이라고 할 수 있죠!-->
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="자눌의 싸이버 노래방" />
+        <meta property="og:description" content="오늘 부를 노래는요" />
+        <meta property="og:image" content="yoen.jpg" />
+        <title>자눌 - 프로필 링크</title>
+        <style>
+            @import url('https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard.css');
+            * {
+                font-family: "Pretendard",serif;
+            }
+            body {
+                background-color: #44398A;
+            }
+            .profile {
+                width: 300px;
+                height: 300px;
+                border-radius: 100%;
+                border: 2px solid white;
+                background-image: url('yoen.jpg');
+                background-position: center;
+                background size: cover;
+            }
+            .main {
+                color: white;
+                font-size: 20px;
+
+                margin-top: 30px;
+                margin-bottom: 10px;
+            }
+            .sub {
+                color: white;
+                font-size: 14px;
+
+                margin-top: 0px;
+                margin-bottom: 30px;
+            }
+            .wrap {
+                width: 500px;
+                margin: 30px auto 0px auto;
+                
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+            .wrap > a {
+                width: 300px;
+                height: 50px;
+
+                background-color: beige;
+                border-radius: 8px;
+                margin-bottom: 10px;
+
+                font-size: 14px;
+                font-weight: bold;
+                color: #44398A;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;  
+                
+                text-decoration: none;
+
+                box-shadow: 3px 3px 5px 0px black;
+
+            }
+            .wrap > a:hover {
+                background-color: #cccccc;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="wrap">
+            <div class="profile"></div>
+            <h1 class="main">한 사람을 위한 마음</h1>
+            <p class="sub">이오공감</p>
+            <a target="_blank" href="https://twitter.com/osoumenya/status/1567327722980147206?s=20&t=lRXozO03GM0ZOFW7RAcOAw">언제 오더라도 너만을 기다리고 싶어</a>
+            <a target="_blank" href="https://twitter.com/dearchic/status/1571445972525543425?s=20&t=lRXozO03GM0ZOFW7RAcOAw">다시 처음으로 모든걸 되돌리고 싶어</a>
+            <a target="_blank" href="https://twitter.com/jo4hedan825/status/1470073648719745026?s=20&t=wTHgvVIqTxb7oCaLfESFAg">이제는 어디로</a>
+            <a target="_blank" href="https://twitter.com/MeMilMan/status/1579043301361352706?s=20&t=wTHgvVIqTxb7oCaLfESFAg">나는 어디로</a>
+        </div>
+    </body>
+</html>
